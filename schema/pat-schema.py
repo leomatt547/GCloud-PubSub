@@ -5,7 +5,7 @@ import json
 
 from google.cloud import pubsub_v1
 
-project_id = "i-hexagon-308502"
+project_id = "loyal-oath-309311"
 
 def create_schema(schema_id, avsc_file):
     """Create a schema from an .avsc file"""

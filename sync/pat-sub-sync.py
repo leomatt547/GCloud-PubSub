@@ -4,13 +4,13 @@ from google.api_core import retry
 from google.cloud import pubsub_v1
 
 # TODO: Jangan lupa ganti
-subscription_id = "test-order"
-project_id = "i-hexagon-308502"
+project_id = "loyal-oath-309311"
+subscription_id = "pat-sub-2"
 
 subscriber = pubsub_v1.SubscriberClient()
 subscription_path = subscriber.subscription_path(project_id, subscription_id)
 
-NUM_MESSAGES = 3
+NUM_MESSAGES = 5
 # Wrap the subscriber in a 'with' block to automatically call close() to
 # close the underlying gRPC channel when done.
 with subscriber:

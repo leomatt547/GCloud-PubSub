@@ -8,7 +8,7 @@ subscription_id = "pat-sub"
 
 while(1):
     # Number of seconds the subscriber should listen for messages
-    timeout = 5.0
+    timeout = 30.0
 
     subscriber = pubsub_v1.SubscriberClient()
     # The `subscription_path` method creates a fully qualified identifier

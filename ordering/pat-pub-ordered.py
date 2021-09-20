@@ -1,11 +1,12 @@
 # Publish ordered messages with (random) ordering key
+#set GOOGLE_APPLICATION_CREDENTIALS=auth.json
 
 from google.cloud import pubsub_v1
 import random
 
 # TODO(developer)
-project_id = "i-hexagon-308502"
-topic_id = "order-topic"
+project_id = "loyal-oath-309311"
+topic_id = "pat-topic"
 
 r = random.Random()
 

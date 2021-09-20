@@ -3,9 +3,9 @@
 from google.cloud import pubsub_v1
 
 # TODO(developer): Choose an existing topic.
-project_id = "i-hexagon-308502"
-topic_id = "order-topic"
-subscription_id = "test-order"
+project_id = "loyal-oath-309311"
+topic_id = "pat-topic"
+subscription_id = "pat-sub-2"
 
 publisher = pubsub_v1.PublisherClient()
 subscriber = pubsub_v1.SubscriberClient()
