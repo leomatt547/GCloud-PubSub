@@ -1,0 +1,18 @@
+{
+  "type" : "record",
+  "name" : "Avro",
+  "fields" : [
+    {
+      "name" : "NIM",
+      "type" : "string"
+    },
+    {
+      "name" : "Nama",
+      "type" : "string"
+    },
+    {
+      "name": "Nilai",
+      "type": "int"
+    }
+  ]
+}
