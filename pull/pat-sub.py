@@ -3,6 +3,8 @@ from google.cloud import pubsub_v1
 
 #set GOOGLE_APPLICATION_CREDENTIALS=auth.json
 # TODO(developer)
+# python pat-sub.py
+
 project_id = "loyal-oath-309311"
 subscription_id = "pat-sub"
 

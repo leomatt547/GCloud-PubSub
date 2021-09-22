@@ -2,9 +2,11 @@ from concurrent.futures import TimeoutError
 from google.cloud import pubsub_v1
 
 #set GOOGLE_APPLICATION_CREDENTIALS=auth.json
+# python pat-sub.py
+
 # TODO(developer)
 project_id = "loyal-oath-309311"
-subscription_id = "pat-sub"
+subscription_id = "pat-sub-2"
 
 A = []
 B = []

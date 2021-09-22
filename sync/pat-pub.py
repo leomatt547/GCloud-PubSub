@@ -1,6 +1,7 @@
 from google.cloud import pubsub_v1
 
 #set GOOGLE_APPLICATION_CREDENTIALS=auth.json
+# python pat-pub.py
 # TODO(developer)
 project_id = "loyal-oath-309311"
 topic_id = "pat-topic"

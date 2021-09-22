@@ -1,5 +1,7 @@
 # Synchronous pull
 
+# python pat-pub-sync.py
+
 from google.api_core import retry
 from google.cloud import pubsub_v1
 
@@ -10,7 +12,7 @@ subscription_id = "pat-sub-2"
 subscriber = pubsub_v1.SubscriberClient()
 subscription_path = subscriber.subscription_path(project_id, subscription_id)
 
-NUM_MESSAGES = 5
+NUM_MESSAGES = 3
 # Wrap the subscriber in a 'with' block to automatically call close() to
 # close the underlying gRPC channel when done.
 with subscriber:

@@ -1,5 +1,6 @@
 # Publish ordered messages with (random) ordering key
-#set GOOGLE_APPLICATION_CREDENTIALS=auth.json
+# set GOOGLE_APPLICATION_CREDENTIALS=auth.json
+# python pat-pub-ordered.py
 
 from google.cloud import pubsub_v1
 import random

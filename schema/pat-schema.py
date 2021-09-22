@@ -2,7 +2,8 @@
 # set GOOGLE_APPLICATION_CREDENTIALS=auth.json
 
 # python pat-schema.py create-topic pat-schema pat-topic-schema JSON
-# python pat-schema.py publish pat-topic nim-schema.avsc "{\"NIM\": \"13519215\", \"Nama\": \"Leonard\", \"Nilai\": 100}"
+# python pat-schema.py publish pat-topic-schema nim-schema.avsc "{\"NIM\": \"13519215\", \"Nama\": \"Leonard\", \"Nilai\": 100}"
+# python pat-schema.py publish pat-topic-schema nim-schema.avsc "{\"NIM\": \"13519139\", \"Nama\": \"Govin\", \"Nilai\": 100}"
 # python pat-schema.py subscribe pat-topic-schema nim-schema.avsc
 # python pat-schema.py receive pat-sub-3 nim-schema.avsc
 
